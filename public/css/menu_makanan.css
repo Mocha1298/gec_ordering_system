@@ -1,0 +1,132 @@
+.navigasi{
+  display: block;
+  padding: 10px 20px;
+  min-height: 60px;
+  filter: brightness(70%); 
+  background: url("../gambar/background/back.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+}
+.navigasi .logo{
+  float: left;
+}
+.navigasi .logo a{
+  text-decoration: none;
+  color: #ffc008;
+}
+.navigasi .keranjang{
+  float: right;
+  position: relative;
+  top: 0;
+  right: 0;
+}
+.navigasi button.keranjang{
+  border-radius: 50%;
+  font-size: 20px;
+  background: #ffc008;
+}
+.navigasi button.keranjang:hover{
+  background: #d3a009;
+}
+
+.row {
+  margin-left: 0;
+  margin-top: 20px;
+}
+.card{
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border:none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.card-img-top {
+   background: url("../gambar/background/back-menu.jpg"); 
+}
+.card#menu img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 20px 0;
+  transition: 0.3s;
+}
+.card#menu:hover > .card#menu img{
+  width: 150px;
+  height: auto;
+}
+.card-text{
+  font-size: 20px;
+  font-weight: 800;
+  color: #ed5153;
+  margin: 0;
+}
+.card-body{
+  position: relative;
+}
+
+.card .btn.body {
+  position: absolute;
+  top: -17px;
+  right: 10px;
+  width: 34px;
+  height: 34px;
+  border-radius:50%;
+  padding: 0;
+  background-color: #ed5153;
+  border-color: #ed5153;
+  color: #fff;
+}
+.btn:hover {
+  background-color: #dc3032;
+  border-color: #dc3032; 
+  color: #fff;
+}
+.btn:focus {
+  box-shadow: none;
+}
+
+.btn svg{
+  font-size: 16px;
+  transition: ease 0.5s;
+}
+svg.terpesan{
+  display: none;
+}
+.hitung{
+  display: none;
+}
+
+.total .card{
+  width: 200px;
+  position: fixed;
+  left: 80%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+
+
+
+.box{
+  margin: 30px 0;
+  background-color: #d3a009;
+  width: 100px;
+  padding: 15px;
+  border: yellowgreen 10px;
+}
+h3.title{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  margin-top: -50px;
+  margin-left: 20px;
+  color: black;
+}
+
+form input{
+  display: none;
+}
